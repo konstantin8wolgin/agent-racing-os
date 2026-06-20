@@ -4,10 +4,10 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+*.egg-info/
 agentos.sqlite
 data/*.sqlite
 data/*.db
 runs/*.tmp
 artifacts/*
 !artifacts/.gitkeep
-
