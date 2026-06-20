@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+agentos.sqlite
+data/*.sqlite
+data/*.db
+runs/*.tmp
+artifacts/*
+!artifacts/.gitkeep
+

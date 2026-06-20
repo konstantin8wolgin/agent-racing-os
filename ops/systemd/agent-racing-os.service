@@ -1,0 +1,15 @@
+[Unit]
+Description=Agent Racing OS daemon
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/agent-racing-os
+EnvironmentFile=%h/agent-racing-os/.env
+ExecStart=%h/agent-racing-os/.venv/bin/agentos daemon --project racing
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
+
